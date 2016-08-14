@@ -54,9 +54,9 @@ namespace studious_waddle
 			//   consumerKey: "",
 			//   consumerSecret: "");
 
-			//app.UseFacebookAuthentication(
-			//   appId: "",
-			//   appSecret: "");
+			app.UseFacebookAuthentication(
+			   appId: "175328099556247",
+			   appSecret: "8b88a8cee114e5204c7400fc367c4346");
 
 			app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
 			{
